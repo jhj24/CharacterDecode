@@ -1,5 +1,4 @@
-# CharacterDecode
-汉字转拼音
+# 汉字转拼音
 
 ```
 String string = "刘德华";
