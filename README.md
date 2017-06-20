@@ -1,5 +1,31 @@
 # 汉字转拼音
 
+## 示例
+![重庆](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
+
+![重要](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
+
+
+## 依赖
+
+gradle
+
+/build.gradle
+```
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+```
+/app/build.gradle
+```
+dependencies {
+    ...
+     compile 'com.github.jhj24:CharacterDecode:v1.0.0'
+}
+```
+
+## 使用方法
 ```
 String string = "刘德华";
 CharacterUtil character = CharacterUtil.getInstence(this)
