@@ -1,9 +1,10 @@
 # 汉字转拼音
+## 简介
+实现汉字对拼音的转换，支持多音字（可能不支持有些多音字，可补全）
 
 ## 示例
-![重庆](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
 
-![重要](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
+![重庆](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)                            ![重要](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/zhongyao.png)
 
 
 ## 依赖
