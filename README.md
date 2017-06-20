@@ -4,7 +4,7 @@
 
 ## 示例
 
-![重庆](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)        ![重要](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
+![重庆](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)                            ![重要](https://github.com/jhj24/CharacterDecode/raw/master/app/screenshot/chongqing.png)
 
 
 ## 依赖
