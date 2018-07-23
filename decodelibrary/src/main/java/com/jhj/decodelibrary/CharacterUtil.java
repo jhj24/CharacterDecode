@@ -1,7 +1,6 @@
 package com.jhj.decodelibrary;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -145,7 +144,6 @@ public class CharacterUtil {
     /**
      * 对多音字进行判断
      */
-    @Nullable
     private String getSpelling(String chinese, char[] chs, int i, String[] spellArray, int type) {
         //字同音不同
         String resultPy = null, defaultPy = null;
@@ -206,9 +204,9 @@ public class CharacterUtil {
 
         if (resultPy == null) {
             if (defaultPy == null) {
-                resultPy = null;
-            } else {
                 resultPy = spellArray[0];
+            } else {
+                resultPy = defaultPy;
             }
         }
         String string = null;
